@@ -1,0 +1,210 @@
+.HomeContainer {
+  /* display: grid;
+        z-index: 1;
+        height: 800px;
+        width: 100%; */
+  /* max-width: 1200px;  */
+  /* margin-top: 5vw; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* padding: 0 24px; */
+
+  grid-gap: 0px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.Col1 {
+  /* margin-top: calc(-50px + 1vw); */
+  /* margin-left: 4vw; */
+  /* margin-bottom: 15px; */
+  /* padding: 0 125px; */
+  width: 20%;
+  grid-area: col1;
+  overflow: hidden;
+}
+
+.Col2 {
+  /* margin-top: 100px; */
+  /* margin-left: 4vw; */
+  /* margin-bottom: 0px; */
+  margin: auto;
+  width: 49.8%;
+  height: 800px;
+  /* width: 300px; */
+  grid-area: col2;
+  overflow: auto;
+}
+
+.Col3 {
+  /* margin-top: 100px; */
+  /* margin-left: 4vw; */
+  /* margin-bottom: 0px; */
+  padding: 0 15px;
+  width: 30%;
+  /* width: 300px; */
+  grid-area: col3;
+  overflow: hidden;
+}
+
+.Col4{
+  width: 79.8%;
+  height: 800px;
+  overflow: scroll;
+}
+
+.Logo {
+  width: 40%;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProfilePicWrapper {
+  margin: auto;
+}
+
+.ProfilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  outline-style:groove;
+  object-fit: cover;
+}
+
+.Post {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5 0px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.ExploreItem{
+  width: 300px;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+.PostFooter{
+    width: 80%;
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      margin-top: -40px;
+}
+
+.EventFooter {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+
+}
+
+.EventCaption{
+  width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.Icons {
+  float: left;
+  cursor: pointer;
+
+}
+
+.Icon{
+  width: 30px;
+    height: 30px;
+}
+
+.TableIcons{
+  width: 50px;
+    height: 30px;
+}
+
+.UserName {
+  margin: auto;
+  display: flex;
+}
+.Date {
+  float: right;
+}
+
+.LikesCount{
+  margin-left: 10px;
+}
+
+.LeftTable{
+  margin: auto;
+  color: white;
+  height: 500px;
+}
+
+
+.ProfileIcon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: -4px;
+  margin-bottom: 10px;
+}
+
+.ImageUploadContainer {
+  margin-top: 20px !important;
+  margin: auto;
+  position: relative;
+  border: 2px dashed #000000;
+  background-color: #bff8fa;
+  padding: 35px 20px;
+  width: 300px;
+  height: 300px;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ImageUploadInput {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  border: none;
+  text-transform: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: white;
+}
+
+.ImageUploadLabel {
+  font-size: 13px;
+  color: black;
+}
+
+.PostUploadPreview{
+  width: 100%;
+  height: 250px;
+}
